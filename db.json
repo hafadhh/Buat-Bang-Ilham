@@ -1,0 +1,113 @@
+{
+  "detail-order": [],
+  "orders": [
+    {
+      "id": "1734185220268",
+      "title": "Sedot WC",
+      "price": "Rp 3.000.000.000",
+      "address": "DIANA INI AKUUU",
+      "jobDetail": "",
+      "name": "Adeline Najwa Medina",
+      "phone": "089754829462",
+      "status": "Petugas membatalkan pesanan",
+      "date": "2024-12-14T14:07:00.268Z"
+    },
+    {
+      "id": "1734185653331",
+      "title": "Sedot WC",
+      "price": "Rp 3.000.000.000",
+      "address": "HIHIHH NANAA",
+      "jobDetail": "",
+      "name": "Adeline Najwa Medina",
+      "phone": "089754829462",
+      "status": "User  membatalkan pesanan",
+      "date": "2024-12-14T14:14:13.331Z"
+    },
+    {
+      "id": "1734185902179",
+      "title": "Sedot WC",
+      "price": "Rp 3.000.000.000",
+      "address": "",
+      "jobDetail": "",
+      "name": "Adeline Najwa Medina",
+      "phone": "089754829462",
+      "status": "User  membatalkan pesanan",
+      "date": "2024-12-14T14:18:22.179Z"
+    },
+    {
+      "id": "1734193424942",
+      "title": "Sedot WC",
+      "price": "Rp 3.000.000.000",
+      "address": "",
+      "jobDetail": "",
+      "name": "Adeline Najwa Medina",
+      "phone": "089754829462",
+      "status": "User  membatalkan pesanan",
+      "date": "2024-12-14T16:23:44.942Z"
+    },
+    {
+      "id": "1734196164606",
+      "title": "Sedot WC",
+      "price": "Rp 3.000.000.000",
+      "address": "IHUH HEHE",
+      "jobDetail": "IINI AKU",
+      "name": "John Doe FADH",
+      "phone": "123-456-7890",
+      "status": "Petugas membatalkan pesanan",
+      "date": "2024-12-14T17:09:24.606Z"
+    },
+    {
+      "id": "1734196743158",
+      "title": "Sedot WC",
+      "price": "Rp 3.000.000.000",
+      "address": "IHUH HEHE",
+      "jobDetail": "IINI AKU",
+      "name": "John Doe FADH",
+      "phone": "123-456-7890",
+      "status": "User  membatalkan pesanan",
+      "date": "2024-12-14T17:19:03.158Z"
+    },
+    {
+      "id": "1734196884205",
+      "title": "Sedot WC",
+      "price": "Rp 3.000.000.000",
+      "address": "IHUH HEHE",
+      "jobDetail": "IINI AKU",
+      "name": "John Doe FADH",
+      "phone": "123-456-7890",
+      "status": "User  membatalkan pesanan",
+      "date": "2024-12-14T17:21:24.205Z"
+    },
+    {
+      "id": "1734197691343",
+      "title": "Sedot WC",
+      "price": "Rp 3.000.000.000",
+      "address": "",
+      "jobDetail": "",
+      "name": "John Doe FADH",
+      "phone": "123-456-7890",
+      "status": "Mencari pekerja",
+      "date": "2024-12-14T17:34:51.343Z"
+    },
+    {
+      "id": "1734243737460",
+      "title": "Sedot WC",
+      "price": "Rp 3.000.000.000",
+      "address": "KAOSJOSDO",
+      "jobDetail": "",
+      "name": "John Doe FADH",
+      "phone": "123-456-7890",
+      "status": "User  membatalkan pesanan",
+      "date": "2024-12-15T06:22:17.460Z"
+    }
+  ],
+  "profile": [
+    {
+      "name": "REHAN",
+      "email": "johndoe@UHUY.com",
+      "phoneNumber": "565587585858587",
+      "address": "Jl. Ahmad dahlan, Perumahan Ancar, Kelurahan Senen, Kecamatan Kranggan, Kota Tangerang.",
+      "id": "1"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+.dashboard-container {
+  padding: 20px;
+  background-color: #f0f4ff; /* Warna latar belakang biru kalem */
+  min-height: 100vh; /* Memastikan konten memenuhi tinggi layar */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Pusatkan konten */
+}
+
+.dashboard-title {
+  font-size: 2.5rem; /* Ukuran font lebih besar untuk judul */
+  font-weight: bold;
+  color: #007bff; /* Warna biru cerah untuk judul */
+  margin-bottom: 20px;
+  text-align: center; /* Pusatkan judul */
+  text-shadow: 1px 1px 2px rgba(0, 123, 255, 0.5); /* Efek bayangan pada teks */
+}
+
+.orders-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Tampilkan 2 kolom */
+  gap: 20px; /* Jarak antar kartu */
+  width: 100%; /* Memastikan lebar penuh */
+  max-width: 800px; /* Lebar maksimum untuk responsif */
+}
+
+.order-card {
+  background-color: #ffffff; /* Warna latar belakang kartu */
+  border-radius: 12px; /* Sudut melengkung lebih besar */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan halus dengan warna biru */
+ /* Efek transisi saat hover */
+}
+
+.order-card:hover {
+  /* transform: translateY(-5px); Efek angkat saat hover */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Bayangan lebih dalam saat hover */
+}
+
+.order-title {
+  font-size: 1.5rem; /* Ukuran font lebih besar untuk judul pesanan */
+  font-weight: 600;
+  color: #0056b3; /* Warna biru gelap untuk judul pesanan */
+}
+
+.no-orders {
+  color: #6c757d; /* Warna teks abu-abu untuk pesan tidak ada pesanan */
+  text-align: center; /* Pusatkan pesan */
+}
+
+.cancel-button {
+  margin-top: 10px;
+  background-color: #dc3545; /* Warna merah untuk tombol batalkan */
+  color: white; /* Warna teks putih */
+  transition: background-color 0.3s, transform 0.3s; /* Efek transisi saat hover */
+}
+
+.cancel-button:hover {
+  background-color: #c82333; /* Warna merah lebih gelap saat hover */
+  transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+/* Tambahan styling untuk elemen lain */
+.order-card p {
+  margin: 5px 0; /* Jarak antar paragraf */
+  color: #343a40; /* Warna teks gelap untuk detail pesanan */
+}
+
+/* Styling untuk label dan nilai */
+.order-detail {
+  display: flex;
+  justify-content: space-between; /* Memastikan label dan nilai sejajar */
+  margin: 5px 0; /* Jarak antar detail */
+  flex-wrap: wrap; /* Membiarkan teks membungkus jika terlalu panjang */
+}
+
+.order-detail span:first-child {
+  font-weight: bold; /* Membuat label lebih tebal */
+  min-width: 100px; /* Lebar minimum untuk label */
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 900px) {
+  .orders-list {
+    grid-template-columns: repeat(1, 1fr); /* Tampilkan 1 kolom pada perangkat kecil */
+  }
+}
+
+@media (max-width: 600px) {
+  .dashboard-title {
+    font-size: 2rem; /* Ukuran font lebih kecil untuk judul pada perangkat kecil */
+  }
+
+  .order-title {
+    font-size: 1.2rem; /* Ukuran font lebih kecil untuk judul pesanan */
+  }
+
+  .order-card {
+    padding: 15px; /* Padding lebih kecil pada kartu pesanan */
+  }
+}
